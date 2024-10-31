@@ -24,3 +24,7 @@ export const Colors = {
     tabIconSelected: tintColorDark,
   },
 };
+
+export const Globals = {
+    backgroundColor: '#69967F',
+}
