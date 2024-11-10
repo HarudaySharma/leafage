@@ -1,3 +1,4 @@
+import CameraScreen from '@/components/Camera/CameraScreen';
 import { ThemedText } from '@/components/ThemedText'
 import { Globals } from '@/constants/Colors';
 import { StyleSheet } from 'react-native';
@@ -5,9 +6,9 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 function Home() {
     return (
-        <SafeAreaView style={styles.root}>
-            <ThemedText>HOME</ThemedText>
-        </SafeAreaView>
+        <SafeAreaView>
+       <CameraScreen/>
+       </SafeAreaView>
     )
 }
 
